@@ -11,6 +11,7 @@ import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 import com.reeactnativebridge.toast.CustomToastPackage;
+import com.reeactnativebridge.utils.UtilsPackage;
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -28,6 +29,7 @@ public class MainApplication extends Application implements ReactApplication {
           // Packages that cannot be autolinked yet can be added manually here, for example:
           // packages.add(new MyReactNativePackage());
           packages.add(new CustomToastPackage()); // <-- Add this line with your package name.
+          packages.add(new UtilsPackage()); // <-- Add this line with your package name.
           return packages;
         }
 

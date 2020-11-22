@@ -9,6 +9,7 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet, View, Text, StatusBar } from 'react-native';
 import ToastComponent from './src/Toast';
+import Utils from './src/Utils';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <View style={styles.container}>
             <Text style={styles.title}>React Native Bridge Example</Text>
             <ToastComponent />
+            <Utils />
           </View>
       </SafeAreaView>
     </>
