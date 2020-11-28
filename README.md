@@ -23,13 +23,10 @@
 Link - https://www.npmjs.com/package/@react-native-community/bob
 
 2. To create new project with Bob, run the following:
-
-`npx @react-native-community/bob create react-native-awesome-module`
-
-3. Configuring an existing project
-
-Automatic Config with yarn:
 `yarn add --dev @react-native-community/bob`
+
+3. Automatic Config with yarn:
+`npx @react-native-community/bob create react-native-awesome-module`
 
 
 * Git:
