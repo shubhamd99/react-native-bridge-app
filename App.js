@@ -11,6 +11,7 @@ import { SafeAreaView, StyleSheet, View, Text, StatusBar } from 'react-native';
 import ToastComponent from './src/Toast';
 import Utils from './src/Utils';
 import DeviceComponent from './src/Device';
+import CalendarComponent from './src/Calendar';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
             <ToastComponent />
             <Utils />
             <DeviceComponent />
+            <CalendarComponent />
           </View>
       </SafeAreaView>
     </>
