@@ -31,3 +31,6 @@ Link - https://www.npmjs.com/package/@react-native-community/bob
 Automatic Config with yarn:
 `yarn add --dev @react-native-community/bob`
 
+
+* Git:
+`git push -u origin main  `
