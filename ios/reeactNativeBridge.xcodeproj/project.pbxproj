@@ -128,7 +128,7 @@
 		13B07FAE1A68108700A75B9A /* reeactNativeBridge */ = {
 			isa = PBXGroup;
 			children = (
-				5484CE5E25728EA700A36898 /* Device */,
+				54CA8E702572918C002CEF15 /* Device */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -153,13 +153,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5484CE5E25728EA700A36898 /* Device */ = {
+		54CA8E702572918C002CEF15 /* Device */ = {
 			isa = PBXGroup;
 			children = (
 				5484CE5F25728EC900A36898 /* Device.h */,
 				5484CE6025728EFE00A36898 /* Device.m */,
 			);
-			name = Device;
+			path = Device;
 			sourceTree = "<group>";
 		};
 		7CA40B44CD6150DFB0481D93 /* Pods */ = {
