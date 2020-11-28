@@ -15,6 +15,7 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* reeactNativeBridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reeactNativeBridgeTests.m */; };
+		5484CE6125728EFE00A36898 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 5484CE6025728EFE00A36898 /* Device.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A0F361C46CE9C0A272933D2F /* libPods-reeactNativeBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DEF1A7F0E55C4E13402E7B /* libPods-reeactNativeBridge.a */; };
 		B5250F739F97E59C6B811DA9 /* libPods-reeactNativeBridge-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0393F4178A88988655729136 /* libPods-reeactNativeBridge-tvOS.a */; };
@@ -56,6 +57,8 @@
 		2083B861D6423614605E4939 /* Pods-reeactNativeBridge-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reeactNativeBridge-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-reeactNativeBridge-tvOS/Pods-reeactNativeBridge-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* reeactNativeBridge-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reeactNativeBridge-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* reeactNativeBridge-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reeactNativeBridge-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5484CE5F25728EC900A36898 /* Device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		5484CE6025728EFE00A36898 /* Device.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
 		7F50D898464462CB004DFB5A /* libPods-reeactNativeBridge-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reeactNativeBridge-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reeactNativeBridge/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8255D36DDEED9B708470AE54 /* Pods-reeactNativeBridge-reeactNativeBridgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reeactNativeBridge-reeactNativeBridgeTests.release.xcconfig"; path = "Target Support Files/Pods-reeactNativeBridge-reeactNativeBridgeTests/Pods-reeactNativeBridge-reeactNativeBridgeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +128,7 @@
 		13B07FAE1A68108700A75B9A /* reeactNativeBridge */ = {
 			isa = PBXGroup;
 			children = (
+				5484CE5E25728EA700A36898 /* Device */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -149,6 +153,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5484CE5E25728EA700A36898 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				5484CE5F25728EC900A36898 /* Device.h */,
+				5484CE6025728EFE00A36898 /* Device.m */,
+			);
+			name = Device;
+			sourceTree = "<group>";
+		};
 		7CA40B44CD6150DFB0481D93 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +174,6 @@
 				9CFCCA26D3DAF1D7C135763C /* Pods-reeactNativeBridge-tvOSTests.debug.xcconfig */,
 				C8CF1C871F9F91F6211C89F4 /* Pods-reeactNativeBridge-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -568,6 +580,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5484CE6125728EFE00A36898 /* Device.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);

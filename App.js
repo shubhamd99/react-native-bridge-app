@@ -10,17 +10,19 @@ import React from 'react';
 import { SafeAreaView, StyleSheet, View, Text, StatusBar } from 'react-native';
 import ToastComponent from './src/Toast';
 import Utils from './src/Utils';
+import DeviceComponent from './src/Device';
 
 
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
+      <SafeAreaView style={{ flex: 1 }}>
           <View style={styles.container}>
             <Text style={styles.title}>React Native Bridge Example</Text>
             <ToastComponent />
             <Utils />
+            <DeviceComponent />
           </View>
       </SafeAreaView>
     </>
