@@ -28,6 +28,7 @@ Link - https://www.npmjs.com/package/@react-native-community/bob
 3. Automatic Config with yarn:
 `npx @react-native-community/bob create react-native-awesome-module`
 
+![alt text](https://i.imgur.com/ryVUSoq.png)
 
 * Git:
 `git push -u origin main  `
