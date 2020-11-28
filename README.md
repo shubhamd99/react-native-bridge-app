@@ -1,5 +1,6 @@
 ### React Native Bridge Example:
 
+![alt text](https://i.imgur.com/Ana2X4h.png)
 #### Android :
 
 1. A native module is a Java class that usually extends the ReactContextBaseJavaModule class and implements the functionality required by the JavaScript. Our goal here is to be able to write ToastExample.show('Awesome', ToastExample.SHORT); from JavaScript to display a short toast on the screen.
